@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Portfolio</title>
+<link rel="stylesheet" href="styles.css"> 
+</head>
+
+<header class="topbox">
+    <div class="wrap">
+        <p>Portfolio - Class of 2027</p>
+        <h1>Caden Santopadre</h1>
+        <p class="role">Engineer, Tutor, Student</p>
+        <div class="contact">
+            <span>(Your HS) - </span>
+            <span>(Your Town) - </span>
+            <span>csantopadre26@gmail.com</span>
+        </div>
+    </div>
+</header>
+
+<nav class="navigation">
+    <div class="wrap">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#activities">Activities & Awards</a>
+    </div>
+</nav>
+
+<section id="about">
+    <div class="wrap">
+        <div class="header">
+            <span class="num">01</span>
+            <h2>About Me</h2>
+            <span class="line"></span>
+
+        </div>
+        <div class="about-lr">
+            <div class="about-para">
+                <p>I'm a high school student interested in Synchroniztion Science... so I use Engineering, Mathematics
+          and Research skills to study it. I enjoy designing hardware, writing software, and using data to answer
+          questions that don't have obvious solutions. Whether I'm developing wearable devices for human sync,
+          building statistical models for card games, or creating educational videos, I like projects that combine
+          theory with implementation.</p>
+                <p>Beyond building technology, I'm interested in making technical ideas more accessible. Through research,
+          tutorials, teaching, and technical writing, I aim to explain complex concepts in ways that others can
+          understand and build upon.</p>
+            </div>
+            <dl class="about-box">
+                <dt>GPA (UW - W)</dt>
+                <dd>3.94 - 4.60</dd>
+                
+                <dt>Intended Majors</dt>
+                <dd>Mathematics / Engineering / Neuroscience</dd>
+
+                <dt>Languages</dt>
+                <dd>English, French, Python, Java, HTML/CSS/JS, LaTeX, some C</dd>
+
+                <dt>Resume</dt>
+                <dd><a href="No link yet">Open PDF Here</a></dd>
+            </dl>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="header">
+      <span class="num">02</span>
+      <h2>Projects</h2>
+      <span class="line"></span>
+    </div>
+    <p class="section-intro">Here are the projects I've made:</p>
+
+    <div class="ledger">
+
+      <div class="entry">
+        <div class="proj-num">Project #1
+          <span class="term"> Full Year 25-26</span>
+        </div>
+        <div>
+          <h3>Synchronization in Runners (Pilot)</h3>
+          <p>My first ever Research Study. I analyzed synchronization in runners under 4 conditions:
+            Control, Steady, Inter-Phase, and Anti-Phase modes. Used phones with PhyPhox, so it paved
+            the way to custom controllers in the second study.
+          </p>
+          <div class="tags"><span>Research</span><span>Python</span><span>Synchronization</span></div>
+        </div>
+        <div class="right-content">
+            <img src="runner.jpg" alt="Runner on treadmill" class="proj-photo">
+        
+            <div class="links">
+            <a href="https://drive.google.com/file/d/1KT8z1zHqrezj6ENEayr7zQnGNoOQJqRx/view?usp=sharing">Write-up (PDF)</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="code">Project #2
+          <span class="term">Summer 2026</span></div>
+        <div>
+          <h3>Optimal-Stopping Simulator for Flip 7</h3>
+          <p>A Monte Carlo simulation comparing stopping strategies for the card game Flip 7,
+          including a derived Human Threshold</p>
+          <div class="tags"><span>Research</span><span>Python</span><span>Data Analysis</span></div>
+        </div>
+        <div class="right-content">
+            <img src="flip7.png" alt="boundary decision curve" class="proj-photo">
+
+            <div class="links">
+            <a href="https://drive.google.com/file/d/1eeNgkhr_ImRXKBdpJLAiNlGz1Bfg_gyO/view?usp=sharing">Report (PDF)</a>
+            <a href="https://github.com/CadenSantopadre/Flip7">Source code</a>
+            </div>
+        </div>
+        </div>
+
+      <div class="entry">
+        <div class="code">Project #3
+          <span class="term">Summer 2026</span></div>
+        <div>
+          <h3>Mini Computer</h3>
+          <p>Built a Raspberry Pi PyQt script for To-Do lists, Research Logs, Running Trackers,
+            Calendar-Progress pages, Formula Dictionaries, and a Kerbal Space Program Mission Planner
+          </p>
+          <div class="tags"><span>Raspberry Pi</span><span>PyQt6</span><span>Just For Fun</span></div>
+        </div>
+        <div class="right-content">
+            <img src="no image yet" alt="Mini Computer" class="proj-photo">
+            
+            <div class="links">
+                <a href="https://github.com/CadenSantopadre/MiniComputer">Source Code</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="code">Project #4
+          <span class="term">Summer 2026</span></div>
+        <div>
+          <h3>Synchronization in Humans (Flagship)</h3>
+          <p>Engineered a running watch that tracks synchronization, measured for runners and non-runners.
+            Built custom PCB and ESP-now and a custom step-detection algorithm for tracking.
+          </p>
+          <div class="tags"><span>C</span><span>Research</span><span>Engineering</span></div>
+        </div>
+        <div class="right-content">
+            <img src="pcb.png" alt="PCB for running watch" class="proj-photo">
+            
+            <div class="links">
+                <a href="https://github.com/CadenSantopadre/SyncProject">Source Code</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="code">Project #5
+          <span class="term">Summer 2026</span></div>
+        <div>
+          <h3>Speed-Adjustable MP3 Player</h3>
+          <p>Engineered an MP3 Player that changes speed based on cadence, beat lands exactly when you take a step.
+            Pairs with custom running watch from Project #4.
+          </p>
+          <div class="tags"><span>C</span><span>Just For fun</span><span>Engineering</span></div>
+        </div>
+        <div class="right-content">
+            <img src="no image yet" alt="MP3 player" class="proj-photo">
+            
+            <div class="links">
+                <a href="no link yet">Source Code</a>
+            </div>
+        </div>
+      </div>
+   </div>
+  </div>
+</section>
+
+<section id="activities">
+    <div class="wrap">
+    <div class="header">
+        <span class="num">03</span>
+        <h2>Activities & Awards</h2>
+        <span class="line"></span>
+    </div>
+    <div class="two-col">
+        <div>
+        <h3>Activities</h3>
+        <ul>
+            <li><span><span class="name">Educational YouTube Creator - Waggle6Points</span><span class="sub">Create videos in STEM and Research</span></span><span class="when">2026-Present</span></li>
+            <li><span><span class="name">XC and TF</span><span class="sub">JV - Mile: 4:48 - 800: 2:13</span></span><span class="when">2022-2026</span></li>
+            <li><span><span class="name">Paw Print</span><span class="sub">Editor in Chief</span></span><span class="when">2022-present</span></li>
+            <li><span><span class="name">Scouting BSA</span><span class="sub">Eagle Scout</span></span><span class="when">2020-2026</span></li>
+            <li><span><span class="name">VHS Tutoring</span><span class="sub">Highest level tutor</span></span><span class="when">2022-2026</span></li>
+        </ul>
+        </div>
+        <div>
+        <h3>Awards</h3>
+        <ul>
+            <li><span><span class="name">AP Capstone Diploma</span></span><span class="when">2026</span></li>
+            <li><span><span class="name">AP Scholar with Distinction</span></span><span class="when">2026</span></li>
+            <li><span><span class="name">SCC President's Highest Honor List</span></span><span class="when">2026</span></li>
+            <li><span><span class="name">VHS Principal's Honor Roll</span></span><span class="when">2026</span></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>
