@@ -203,3 +203,48 @@ li{
     font-size: 13px;
     margin-top: 2px;
 }
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Match your existing image width */
+  margin-bottom: 10px;
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+}
+
+.slides .proj-photo {
+  display: none; /* Hide all images by default */
+  width: 100%;
+  height: auto;
+}
+
+.slides .proj-photo.active {
+  display: block; /* Only show the active image */
+}
+
+/* Arrow Button Styling */
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev-btn { left: 5px; }
+.next-btn { right: 5px; }

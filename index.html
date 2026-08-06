@@ -12,8 +12,8 @@
         <h1>Caden Santopadre</h1>
         <p class="role">Engineer, Tutor, Student</p>
         <div class="contact">
-            <span>(Your HS) - </span>
-            <span>(Your Town) - </span>
+            <span>Vacaville High School - </span>
+            <span>Vacaville - </span>
             <span>csantopadre26@gmail.com</span>
         </div>
     </div>
@@ -70,145 +70,180 @@
       <h2>Projects</h2>
       <span class="line"></span>
     </div>
+    
     <p class="section-intro">Here are the projects I've made:</p>
-
+    
     <div class="ledger">
-
+      
+      <!-- Project #1 -->
       <div class="entry">
-        <div class="proj-num">Project #1
-          <span class="term"> Full Year 25-26</span>
-        </div>
+        <div class="proj-num">Project #1 <span class="term">Full Year 25-26</span></div>
         <div>
           <h3>Synchronization in Runners (Pilot)</h3>
-          <p>My first ever Research Study. I analyzed synchronization in runners under 4 conditions:
-            Control, Steady, Inter-Phase, and Anti-Phase modes. Used phones with PhyPhox, so it paved
-            the way to custom controllers in the second study.
-          </p>
+          <p>My first ever Research Study. I analyzed synchronization in runners under 4 conditions: Control, Steady, Inter-Phase, and Anti-Phase modes. Used phones with PhyPhox, so it paved the way to custom controllers in the second study.</p>
           <div class="tags"><span>Research</span><span>Python</span><span>Synchronization</span></div>
         </div>
         <div class="right-content">
-            <img src="runner.jpg" alt="Runner on treadmill" class="proj-photo">
-        
-            <div class="links">
-            <a href="https://drive.google.com/file/d/1KT8z1zHqrezj6ENEayr7zQnGNoOQJqRx/view?usp=sharing">Write-up (PDF)</a>
+          <div class="slider-container" id="slider-1">
+            <button class="prev-btn" onclick="moveSlide('slider-1', -1)">&lt;</button>
+            <div class="slides">
+              <img src="runner.png" alt="Runner 1" class="proj-photo active">
+              <img src="runner2.png" alt="Runner 2" class="proj-photo">
+              <img src="runner3.png" alt="Runner 3" class="proj-photo">
+              <img src="runner4.png" alt="Runner 4" class="proj-photo">
             </div>
+            <button class="next-btn" onclick="moveSlide('slider-1', 1)">&gt;</button>
+          </div>
+          <div class="links">
+            <a href="https://drive.google.com/file/d/1KT8z1zHqrezj6ENEayr7zQnGNoOQJqRx/view?usp=sharing">Write-up (PDF)</a>
+          </div>
         </div>
       </div>
 
+      <!-- Project #2 -->
       <div class="entry">
-        <div class="code">Project #2
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #2 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Turn-Based Game</h3>
-          <p>Programmed a Final-Fantasy-type game as preparation for AP Comp Sci.
-          </p>
+          <p>Programmed a Final-Fantasy-type game as preparation for AP Comp Sci.</p>
           <div class="tags"><span>Java</span><span>Software Engineering</span><span>Just for fun</span></div>
         </div>
         <div class="right-content">
-            <img src="game.png" alt="Rhythm Game" class="proj-photo">
-            
-            <div class="links">
-                <a href="https://github.com/CadenSantopadre/Game-attempt-2">Source Code</a>
+          <div class="slider-container" id="slider-2">
+            <div class="slides">
+              <img src="game.png" alt="Game 1" class="proj-photo active">
             </div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/CadenSantopadre/Game-attempt-2">Source Code</a>
+          </div>
         </div>
       </div>
 
+      <!-- Project #3 -->
       <div class="entry">
-        <div class="code">Project #3
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #3 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Optimal-Stopping Simulator for Flip 7</h3>
-          <p>A Monte Carlo simulation comparing stopping strategies for the card game Flip 7,
-          including a derived Human Threshold</p>
+          <p>A Monte Carlo simulation comparing stopping strategies for the card game Flip 7, including a derived Human Threshold</p>
           <div class="tags"><span>Research</span><span>Python</span><span>Data Analysis</span></div>
         </div>
         <div class="right-content">
-            <img src="flip7.png" alt="boundary decision curve" class="proj-photo">
-
-            <div class="links">
+          <div class="slider-container" id="slider-3">
+            <button class="prev-btn" onclick="moveSlide('slider-3', -1)">&lt;</button>
+            <div class="slides">
+              <img src="flip7.png" alt="Flip 7 Analysis 1" class="proj-photo active">
+              <img src="flip72.png" alt="Flip 7 Analysis 2" class="proj-photo">
+              <img src="flip73.png" alt="Flip 7 Analysis 3" class="proj-photo">
+            </div>
+            <button class="next-btn" onclick="moveSlide('slider-3', 1)">&gt;</button>
+          </div>
+          <div class="links">
             <a href="https://drive.google.com/file/d/1eeNgkhr_ImRXKBdpJLAiNlGz1Bfg_gyO/view?usp=sharing">Report (PDF)</a>
             <a href="https://github.com/CadenSantopadre/Flip7">Source code</a>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
 
+      <!-- Project #4 -->
       <div class="entry">
-        <div class="code">Project #4
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #4 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Mini Computer</h3>
-          <p>Built a Raspberry Pi PyQt script for To-Do lists, Research Logs, Running Trackers,
-            Calendar-Progress pages, Formula Dictionaries, and a Kerbal Space Program Mission Planner
-          </p>
+          <p>Built a Raspberry Pi PyQt script for To-Do lists, Research Logs, Running Trackers, Calendar-Progress pages, Formula Dictionaries, and a Kerbal Space Program Mission Planner</p>
           <div class="tags"><span>Raspberry Pi</span><span>PyQt6</span><span>Just For Fun</span></div>
         </div>
         <div class="right-content">
-            <img src="mini.png" alt="Mini Computer" class="proj-photo">
-            
-            <div class="links">
-                <a href="https://github.com/CadenSantopadre/MiniComputer">Source Code</a>
+          <div class="slider-container" id="slider-4">
+            <button class="prev-btn" onclick="moveSlide('slider-4', -1)">&lt;</button>
+            <div class="slides">
+              <img src="mini.png" alt="Mini Computer 1" class="proj-photo active">
+              <img src="mini2.png" alt="Mini Computer 2" class="proj-photo">
+              <img src="mini3.png" alt="Mini Computer 3" class="proj-photo">
             </div>
+            <button class="next-btn" onclick="moveSlide('slider-4', 1)">&gt;</button>
+          </div>
+          <div class="links">
+            <a href="https://github.com/CadenSantopadre/MiniComputer">Source Code</a>
+          </div>
         </div>
       </div>
 
+      <!-- Project #5 -->
       <div class="entry">
-        <div class="code">Project #5
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #5 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Synchronization in Humans (Flagship)</h3>
-          <p>Engineered a running watch that tracks synchronization, measured for runners and non-runners.
-            Built custom PCB and ESP-now and a custom step-detection algorithm for tracking.
-          </p>
+          <p>Engineered a running watch that tracks synchronization, measured for runners and non-runners. Built custom PCB and ESP-now and a custom step-detection algorithm for tracking.</p>
           <div class="tags"><span>C</span><span>Research</span><span>Engineering</span></div>
         </div>
         <div class="right-content">
-            <img src="pcb.png" alt="PCB for running watch" class="proj-photo">
-            
-            <div class="links">
-                <a href="https://github.com/CadenSantopadre/SyncProject">Source Code</a>
+          <div class="slider-container" id="slider-5">
+            <button class="prev-btn" onclick="moveSlide('slider-5', -1)">&lt;</button>
+            <div class="slides">
+              <img src="pcb.png" alt="Sync Device 1" class="proj-photo active">
+              <img src="pcb2.png" alt="Sync Device 2" class="proj-photo">
+              <img src="pcb3.png" alt="Sync Device 3" class="proj-photo">
             </div>
+            <button class="next-btn" onclick="moveSlide('slider-5', 1)">&gt;</button>
+          </div>
+          <div class="links">
+            <a href="https://github.com/CadenSantopadre/SyncProject">Source Code</a>
+          </div>
         </div>
       </div>
 
+      <!-- Project #6 -->
       <div class="entry">
-        <div class="code">Project #6
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #6 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Speed-Adjustable MP3 Player</h3>
-          <p>Engineered an MP3 Player that changes speed based on cadence, beat lands exactly when you take a step.
-            Pairs with custom running watch from Project #4.
-          </p>
+          <p>Engineered an MP3 Player that changes speed based on cadence, beat lands exactly when you take a step. Pairs with custom running watch from Project #4.</p>
           <div class="tags"><span>C</span><span>Just For fun</span><span>Engineering</span></div>
         </div>
         <div class="right-content">
-            <img src="no image yet" alt="MP3 player" class="proj-photo">
-            
-            <div class="links">
-                <a href="no link yet">Source Code</a>
+          <div class="slider-container" id="slider-6">
+            <button class="prev-btn" onclick="moveSlide('slider-6', -1)">&lt;</button>
+            <div class="slides">
+              <img src="mp3.png" alt="MP3 1" class="proj-photo active">
+              <img src="mp32.png" alt="MP3 2" class="proj-photo">
+              <img src="mp33.png" alt="MP3 3" class="proj-photo">
             </div>
+            <button class="next-btn" onclick="moveSlide('slider-6', 1)">&gt;</button>
+          </div>
+          <div class="links">
+            <a href="no link yet">Source Code</a>
+          </div>
         </div>
       </div>
 
+      <!-- Project #7 -->
       <div class="entry">
-        <div class="code">Project #7
-          <span class="term">Summer 2026</span></div>
+        <div class="code">Project #7 <span class="term">Summer 2026</span></div>
         <div>
           <h3>Rhythm Game</h3>
-          <p>Programmed a rhythm game with custom music including analysis with synchronization science for adaptive results.
-          </p>
+          <p>Programmed a rhythm game with custom music including analysis with synchronization science for adaptive results.</p>
           <div class="tags"><span>Java</span><span>Software Engineering</span><span>Synchronization Science</span></div>
         </div>
         <div class="right-content">
-            <img src="rhythm.png" alt="Rhythm Game" class="proj-photo">
-            
-            <div class="links">
-                <a href="https://github.com/CadenSantopadre/SyncGame">Source Code</a>
+          <div class="slider-container" id="slider-7">
+            <button class="prev-btn" onclick="moveSlide('slider-7', -1)">&lt;</button>
+            <div class="slides">
+              <img src="rhythm.png" alt="Rhythm 1" class="proj-photo active">
+              <img src="rhythm2.png" alt="Rhythm 2" class="proj-photo">
             </div>
+            <button class="next-btn" onclick="moveSlide('slider-7', 1)">&gt;</button>
+          </div>
+          <div class="links">
+            <a href="https://github.com/CadenSantopadre/SyncGame">Source Code</a>
+          </div>
         </div>
       </div>
-   </div>
+
+    </div>
   </div>
 </section>
+
 
 <section id="activities">
     <div class="wrap">
@@ -241,4 +276,34 @@
     </div>
 </section>
 </body>
+
+<script>
+function moveSlide(sliderId, direction) {
+  const container = document.getElementById(sliderId);
+  const slides = container.querySelectorAll('.slides .proj-photo');
+  let activeIndex = -1;
+
+  // Find the index of the current active image
+  slides.forEach((slide, index) => {
+    if (slide.classList.contains('active')) {
+      activeIndex = index;
+    }
+  });
+
+  // Remove active status from current image
+  slides[activeIndex].classList.remove('active');
+
+  // Calculate new index with looping logic
+  let newIndex = activeIndex + direction;
+  if (newIndex >= slides.length) {
+    newIndex = 0;
+  } else if (newIndex < 0) {
+    newIndex = slides.length - 1;
+  }
+
+  // Set new active image
+  slides[newIndex].classList.add('active');
+}
+</script>
+
 </html>
