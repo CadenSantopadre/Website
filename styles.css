@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     background: #F5F1E6;
     font-family: Verdana;
@@ -207,7 +212,7 @@ li{
 .slider-container {
   position: relative;
   width: 100%;
-  max-width: 300px; /* Match your existing image width */
+  max-width: 300px;
   margin-bottom: 10px;
 }
 
@@ -217,16 +222,15 @@ li{
 }
 
 .slides .proj-photo {
-  display: none; /* Hide all images by default */
+  display: none;
   width: 100%;
   height: auto;
 }
 
 .slides .proj-photo.active {
-  display: block; /* Only show the active image */
+  display: block;
 }
 
-/* Arrow Button Styling */
 .prev-btn, .next-btn {
   position: absolute;
   top: 50%;
